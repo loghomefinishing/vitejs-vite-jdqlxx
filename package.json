@@ -12,5 +12,17 @@
     "@sveltejs/vite-plugin-svelte": "^1.0.5",
     "svelte": "^3.50.1",
     "vite": "^3.1.0"
-  }
+  },
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-jdqlxx)",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loghomefinishing/vitejs-vite-jdqlxx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loghomefinishing/vitejs-vite-jdqlxx/issues"
+  },
+  "homepage": "https://github.com/loghomefinishing/vitejs-vite-jdqlxx#readme"
 }
