@@ -36,15 +36,40 @@
       </div>
     </div>
   </div>
-  <br>
-  <div tabindex="0" class="collapse group">
-    <div class="collapse-title bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
-      Focus me to see content
+
+  <style global lang="postcss">
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+
+  <div class="collapse">
+    <input type="checkbox" class="peer" /> 
+    <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+      Click me to show/hide content
     </div>
-    <div class="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content"> 
-      <p>tabindex="0" attribute is necessary to make the div focusable</p>
+    <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"> 
+      <p>hello</p>
     </div>
   </div>
+  
+  <div class="rating">
+    <input type="radio" name="rating-1" class="mask mask-star" />
+    <input type="radio" name="rating-1" class="mask mask-star" checked />
+    <input type="radio" name="rating-1" class="mask mask-star" />
+    <input type="radio" name="rating-1" class="mask mask-star" />
+    <input type="radio" name="rating-1" class="mask mask-star" />
+  </div>
+
+  <select class="select w-full max-w-xs">
+    <option disabled selected>Pick your favorite Simpson</option>
+    <option>Homer</option>
+    <option>Marge</option>
+    <option>Bart</option>
+    <option>Lisa</option>
+    <option>Maggie</option>
+  </select>
+
 </main>
 
 <style>

@@ -11,6 +11,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.5",
     "svelte": "^3.50.1",
+    "tailwindcss": "^3.1.8",
     "vite": "^3.1.0"
   },
   "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-jdqlxx)",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/loghomefinishing/vitejs-vite-jdqlxx/issues"
   },
-  "homepage": "https://github.com/loghomefinishing/vitejs-vite-jdqlxx#readme"
+  "homepage": "https://github.com/loghomefinishing/vitejs-vite-jdqlxx#readme",
+  "dependencies": {
+    "daisyui": "^2.28.0"
+  }
 }
